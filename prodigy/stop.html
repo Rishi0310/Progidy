@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+    <title>Stopwatch App</title>
+    <style>
+        body {
+              background-image: url('2.jpeg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: 100% 100%;
+          }
+     </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Stopwatch</h1>
+        <div class="stopwatch">
+            <p id="display">00:00:00</p>
+            <button id="startStop" onclick="startStop()">Start</button>
+            <button id="lapReset" onclick="lapReset()">Lap</button>
+            <button id="Reset" onclick="Reset()">Reset</button>
+        </div>
+        <ul id="laps"></ul>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>

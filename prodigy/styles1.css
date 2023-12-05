@@ -1,0 +1,45 @@
+h1{
+    font-family: 'Arial', sans-serif;
+    font-size: 9em;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.stopwatch {
+    margin-top: 20px;
+}
+
+#display {
+    font-size: 8em;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#startStop { 
+    background-color: #009779; 
+} 
+  
+#lapReset { 
+    background-color: #0e85fc; 
+} 
+  
+#Reset { 
+    background-color: #c91400; 
+}
